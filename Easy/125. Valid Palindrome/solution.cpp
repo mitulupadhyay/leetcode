@@ -1,5 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
+
 class Solution {
 public:
     bool isPalindrome(string s) {
@@ -30,10 +31,14 @@ public:
         return true;
     }
 };
-int main(){
+
+int main() {
+
     string str = "Madam";
+
     Solution s;
-    s.isPalindrome(str);
+
+    cout << s.isPalindrome(str);
 
     return 0;
 }
